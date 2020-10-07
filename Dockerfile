@@ -28,6 +28,7 @@ RUN git clone https://github.com/ethereum-mining/ethminer/ \
     && mkdir /data
 
 
+
 ENV GPU_FORCE_64BIT_PTR=0
 ENV GPU_MAX_HEAP_SIZE=100
 ENV GPU_USE_SYNC_OBJECTS=1
